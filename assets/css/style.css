@@ -6,7 +6,14 @@
  * copyright 2022 @codewithsadee
  */
 
-
+/* global styles */
+.mt-4{
+  margin-top: 4rem;
+}
+.mb-4
+{
+  margin-bottom: 4rem;
+}
 
 
 
@@ -19,8 +26,9 @@
   /**
    * colors
    */
-
-  --rich-black-fogra-29: hsl(240, 13%, 8%);
+   
+  --rich-black-fogra-29:rgb(18, 28, 68);
+  --second-black:#623062;
   --silver-chalice: hsl(0, 0%, 70%);
   --floral-white: hsl(38, 100%, 98%);
   --raisin-black: hsl(240, 8%, 18%);
@@ -29,7 +37,9 @@
   --orange-web: hsl(39, 100%, 50%);
   --cultured: hsl(210, 17%, 98%);
   --mantis: hsl(118, 41%, 62%);
-  --gambog: hsl(39, 100%, 45%);
+  /* --gambog: hsl(39, 100%, 45%); */
+  --gambog:#FFB35B;
+
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
   --onyx: hsl(0, 0%, 23%);
@@ -122,10 +132,11 @@ body { background: var(--white); }
 
 .btn-secondary {
   background: var(--rich-black-fogra-29);
-  box-shadow: inset 0 -10px 20px hsl(240, 8%, 37%);
+  box-shadow: inset 0 -10px 20px hsl(140, 8%, 27%);
 }
 
 .btn-secondary:is(:hover, :focus) {
+    
   background: var(--gambog);
   box-shadow: 5px 10px 30px hsla(39, 100%, 50%, 0.3);
 }
@@ -352,6 +363,13 @@ body { background: var(--white); }
 
 
 
+/*-----------------------------------*\
+ * #ABOUT DETAIL
+\*-----------------------------------*/
+
+
+
+
 
 
 /*-----------------------------------*\
@@ -472,6 +490,16 @@ body { background: var(--white); }
 .card-social-link {
   color: var(--onyx);
   font-size: 18px;
+}
+
+
+/*-----------------------------------*\
+ * #TERTIMONIALS
+\*-----------------------------------*/
+
+.testimonials-title {
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 
